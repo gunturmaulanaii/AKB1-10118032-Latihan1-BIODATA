@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/sun"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        android:textSize="@dimen/dimen34"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/Foto_Profil" />
+
+    <TextView
+        android:id="@+id/v1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nama" />
+
+    <TextView
+        android:id="@+id/v2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_bellow="v1"
+        android:text="@string/nim" />
+
+    <TextView
+        android:id="@+id/v3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_bellow="v2"
+        android:text="@string/kelas" />
+
+    <TextView
+        android:id="@+id/v4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_bellow="v3"
+        android:text="@string/jenis_kelamin" />
+
+    <TextView
+        android:id="@+id/v5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_bellow="v4"
+        android:text="@string/ttl" />
+
+    <TextView
+        android:id="@+id/v6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_bellow="v5"
+        android:text="@string/alamat" />
+
+    <TextView
+        android:id="@+id/v7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_bellow="v6"
+        android:text="@string/darah" />
+
+    <TextView
+        android:id="@+id/v8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_bellow="v7"
+        android:text="@string/makanan" />
+
+    <TextView
+        android:id="@+id/v9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_bellow="v8"
+        android:text="@string/minuman" />
+
+    <TextView
+        android:id="@+id/v10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_bellow="v9"
+        android:text="@string/hobi" />
+
+    <TextView
+        android:id="@+id/v11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_bellow="v10"
+        android:text="@string/lagu" />
+
+    <TextView
+        android:id="@+id/v12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_bellow="v11"
+        android:text="@string/film" />
+
+    <TextView
+        android:id="@+id/v13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_bellow="v12"
+        android:text="@string/pekerjaan" />
+
+
+</LinearLayout>

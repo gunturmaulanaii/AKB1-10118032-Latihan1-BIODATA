@@ -1,0 +1,18 @@
+<resources>
+    <string name="title">Biodata Diri</string>
+    <string name="nama">Nama : Guntur Maulana Ibrahim</string>
+    <string name="nim">NIM : 10118032</string>
+    <string name="kelas">Kelas : IF-1</string>
+    <string name="jenis_kelamin">Jenis Kelamin : Laki-Laki</string>
+    <string name="ttl">TTL : Bandung, 04 Juli 1998</string>
+    <string name="alamat">Alamat : Jl.Margaasih no.9</string>
+    <string name="darah">Golongan Darah : O</string>
+    <string name="makanan">Makanana Kesukaan : Nasi Goreng</string>
+    <string name="minuman">Minuman Kesukaan : Teh Manis</string>
+    <string name="hobi">Hobi : Berenang</string>
+    <string name="lagu">Lagu Favorit : Amigdala - Kukira Kau Rumah</string>
+    <string name="film">Film Favorit : Strat UP</string>
+    <string name="pekerjaan">Pekerjaan yang diingikan setelah lulus : PNS</string>
+
+
+</resources>
